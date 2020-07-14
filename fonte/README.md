@@ -16,7 +16,7 @@ Por conta disso ela deve seguir os critérios a seguir
 | Potenciômetro Linear 5k R       | 1          | R$ 1,09 | [aqui](https://www.baudaeletronica.com.br/potenciometro-linear-de-5k-5000.html) |
 | Transistor NPN 2N222            | 1          | R$ 0,35 | [aqui](https://www.autocorerobotica.com.br/2n222-transistor-npn)                |
 | Capacitor 470uf                 | 1          | R$ 1,00 | [aqui](https://www.tecnotronics.com.br/capacitor-eletrolitico-470uf-25v.html)   |
-| Resistor 2K5                    | 1          | R$ 0,08 | [aqui](https://www.baudaeletronica.com.br/resistor-2k-5-1-4w.html)              |
+| Resistor 2.5k                   | 1          | R$ 0,08 | [aqui](https://www.baudaeletronica.com.br/resistor-2k-5-1-4w.html)              |
 | Resistor 1K                     | 1          | R$ 0,08 | [aqui](https://www.baudaeletronica.com.br/resistor-1k-5-1-4w.html)              |
 | Resistor 120R                   | 1          | R$ 0,08 | [aqui](https://www.baudaeletronica.com.br/resistor-120r-5-1-4w.html)            |
 | Resistor 2K                     | 1          | R$ 0,08 | [aqui](https://www.baudaeletronica.com.br/resistor-2K-5-1-4w.html)              |
@@ -52,8 +52,8 @@ Por conta disso ela deve seguir os critérios a seguir
 #### Potenciômetro (5k Ohms): 
 - O potenciômetro, com a função de regular a tensão e a corrente elétrica no circuito, foi escolhido com 5k Ohms pois esse é o valor adequado para que a tensão na saída varie entre 3V e 12V.
 
-#### Resistor 1 (400 Ohms): 
-- O resistor 1 foi aplicado ao circuito para proteger o diodo zener. Caso o resistor não fosse colocado, haveria a possibilidade de passar uma corrente infinita pelo diodo. Assim, o diodo queimaria. O valor do resistor é de 400 Ohms para que o diodo não queime, assim, controlando a corrente elétrica.
+#### Resistor 1 (1k Ohms): 
+- O resistor 1 foi aplicado ao circuito para proteger o diodo zener. Caso o resistor não fosse colocado, haveria a possibilidade de passar uma corrente infinita pelo diodo. Assim, o diodo queimaria. O valor do resistor é de 1000 Ohms para que o diodo não queime, assim, controlando a corrente elétrica.
 
 #### Resistor 2 (2500 Ohms): 
 O resistor 2 foi aplicado ao circuito para que, quando o potenciômetro fique no máximo, a tensão na saída fique muito próximo, se não exato, da tensão mínima de saída. O valor de 2.5k Ohms foi escolhido pois é o valor mais adequado para o resistor. Esse valor permite que a tensão minima de saída seja 3V.
@@ -61,8 +61,8 @@ O resistor 2 foi aplicado ao circuito para que, quando o potenciômetro fique no
 #### LED Vermelho (2V - 2.5V): 
 - O LED foi acrescentado ao circuito para ver se a saída do circuito está sendo alimentada com energia ou não. O LED vermelho foi escolhido devido a sua baixa tensão pois é possivel ter uma melhor visibilidade de sua luz quando o potenciômetro está regulado no mínimo.
 
-#### Resistor 3 (120 Ohms): 
-- O resistor 3 foi aplicado ao circuito para proteger o LED vermelho. O valor de 120 Ohms foi escolhido para que o LED não queime com uma corrente muito alta.
+#### Resistor 3 (2.2k Ohms): 
+- O resistor 3 foi aplicado ao circuito para proteger o LED vermelho. O valor de 2200 Ohms foi escolhido para que o LED não queime com uma corrente muito alta.
 
 #### Resistor 4 (120 Ohms): 
 - O resistor 4 foi aplicado ao circuito para representar a saída. O resistor apresentado possui 120 Ohms pois é a resistência mais adequada para que o circuito conceda a saída uma corrente de, no máximo, I = 100mA e uma voltagem que varia entre 3V a 12V.
