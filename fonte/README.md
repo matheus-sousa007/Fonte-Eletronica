@@ -70,7 +70,7 @@ O resistor 2 foi aplicado ao circuito para que, quando o potenciômetro fique no
 #### Transisor NPN (2N222): 
 - O transistor NPN foi aplicado ao circuito para que ele possa atuar como amplificador de corrente elétrica. O tipo 2N222 foi escolhido para que o transistor do circuito não queimasse com facilidade.
  
-## EAGLE - Esquemâtico e PCB
+## EAGLE - Esquemático e PCB
 ### Esquemático
 ![Esquemático](./esquematico-Eagle.png)
 
